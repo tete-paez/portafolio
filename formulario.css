@@ -1,0 +1,141 @@
+.box-XL-formulario {
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.div-box-contactame-box-escribime {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 15px 0 #dfdede;
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(216, 215, 215) solid;
+    border-radius: 20px;
+}
+.div-box-contactame-box-escribime:hover {
+    box-shadow: 0 0 5px 0 yellow;
+}
+.section-box-contactame-box-escribime {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5%;
+}
+.title-seccion {
+    margin-bottom: 4%;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 1100px;
+}
+.txt-contactame-lorem {
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 800px;
+}
+/*SECCION CONTACTAME ICONS*/
+.box-contactactame-icons {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+}
+.ul-icons-contactame {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(125, 203, 236);
+}
+.li-style-icons-contactame {
+    display: flex;
+    padding: 5%;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.logosize { 
+    padding: 2%;
+    font-size: 40px;
+    color: darkgray;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.logosize:hover {
+    background-color: yellow;
+}
+.icon-id {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    font-size: 20px;
+    margin-left: 10%;
+}
+/*SECCION FORMULARIO*/
+.box-formulario {
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+}
+.form-nombreyapellido {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+.solo-nombre {
+    background-color: rgb(255, 255, 255);
+    margin-right: 2%;
+}
+.solo-apellido {
+    background-color: rgb(255, 255, 255);
+}
+.email {
+    display: block;
+    padding-top: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.container-mensaje {
+    background-color: rgb(255, 255, 255);
+}
+input {
+    margin-top: 3%;
+    padding-top: 2%;
+    display: block;
+    margin-left: 2%;
+    width: 100%;
+    padding: 4%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.container-input-comentario {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: rgb(0, 0, 0);
+    padding: 3%;
+}
+.boton-enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 10%;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0) 2px solid;
+    box-shadow: 0 0 15px 0 #cccccc;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.boton-enviar:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+}

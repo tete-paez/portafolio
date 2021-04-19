@@ -1,0 +1,76 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.blackground {
+    background-color:#000000;
+}
+.nav-Footer{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.nav {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    height: 30px;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 5px;
+    margin-right: 35px;
+}
+.ul-iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.medidas-Iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 10%;
+    border-radius: 100%;
+    color: #000000;
+    background-color: #ffffff;
+}
+.medidas-Iconos:hover{
+    background-color:yellow;
+    color: #ffff;
+}
+.sizeIcons{
+    font-size: 30px;
+}
+.white-color-ancla {
+    color: white;
+}
+.white-color-ancla:hover{
+    color:yellow;
+}
+.hechoconamor {
+    color: white;
+    font-size: 20px;
+}
+.tete-font {
+    font-size: 20px;
+    font-family: 'Give You Glory', cursive;
+}
+
+
+
+

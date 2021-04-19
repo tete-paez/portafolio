@@ -1,0 +1,75 @@
+.box-xl-proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;    
+}
+.box-columna-proyectos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.titulo-mis-proyectos {
+    text-align: center;
+    padding:20px;
+    font-family: 'Give You Glory', cursive;
+    font-size: 68px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);   
+}
+.titulo-mis-proyectos:hover {
+    font-size: 70;
+    color: yellow;
+}
+.txt-proyectos-lorem {
+    max-width: 30%;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+}
+/*BOX CARDS PROYECTOS*/
+.box-cards-proyectos {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    width: 1300px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    
+}
+.img-proyectos {
+    width: 390px;
+    margin: 1%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px 0 #e0dfdf;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+.img-proyectos:hover {
+    box-shadow: 0 0 8px 0 yellow;
+    border: solid 1px yellow;
+}
+.img-size {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    width: 100%;  
+}
+.nombre-proyecto {
+    align-items: flex-end;
+    margin: 5%;
+    font-size: 22px;
+}

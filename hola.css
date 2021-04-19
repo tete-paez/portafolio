@@ -1,0 +1,71 @@
+.box-xl-hola {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    padding: 3%;
+    background-color: rgb(253, 253, 253);
+}
+/*BOX SALUDO + BOX IMAGEN */
+.box-hola-imagen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 7%;
+}
+/*BOX HOLA*/
+.txt-hola {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.txt-holasoy {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 900px;
+}
+.txt-tetepaez {
+    padding-top: 3%;
+    font-family: 'Give You Glory', cursive;
+    font-size: 100px;
+    font-weight: 400%;
+    color: rgb(88, 88, 88);
+    text-align: right;
+}
+.txt-tetepaez:hover {
+    font-size: 100px;
+    color: yellow;
+}
+.txt-soy {
+    margin-top: 10%;
+    font-size: 25px
+}
+/*BOX BOTON*/
+.boton-loquehago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 4%;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;  
+}
+.boton-loquehago:hover {
+    background-color: yellow;
+}
+.a-color {
+    color: white;
+}
+/*BOX IMAGEN*/
+.img-size {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,40 @@
+.box-quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(143, 143, 143);
+}
+.font-size-fas {
+    font-size: 100px;
+    margin-bottom: 50px;   
+}
+.box-txt-quote {
+    width: 90%;
+    color: white;
+    text-align: center;
+}
+.quote-ingles {
+    margin-top: 10px;
+    padding: 2%;
+    border-radius: 50px;
+    text-decoration: underline yellow;
+    font-family: 'Give You Glory', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    
+}
+.quote-ingles:hover {
+    box-shadow: 0 0 29px 0 yellow;
+    text-decoration: underline yellow;
+}
+.quote {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.quote-by {
+    margin-top: 40px;
+    font-size: 33px;
+    font-family: 800;
+}
