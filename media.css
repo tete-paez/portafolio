@@ -3,6 +3,9 @@
      display: none;
 }
 .box-xl-hola {
+    display: none;
+}
+.hola-mobile {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -141,7 +144,7 @@
     background-color: rgb(255, 255, 255); 
     border: solid 1px rgb(218, 218, 218);
     border-radius: 10px;
-    box-shadow: 0 0 8px 0 #000000;
+    box-shadow: 0 0 5px 0 #686565;
 }
 .box-icon:hover {
     box-shadow: 0 0 5px 0 yellow;
