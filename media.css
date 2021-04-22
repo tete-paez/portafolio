@@ -1,8 +1,556 @@
 @media (min-width: 300px) and (max-width: 700px) {
-    header {
-        display: none;
-    }
+ header {
+     display: none;
+}
+.box-xl-hola {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    padding: 3%;
+}
+/*BOX SALUDO + BOX IMAGEN */
+.box-hola-imagen {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 2%;
+}
+/*BOX HOLA*/
+.txt-hola {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.txt-holasoy {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 900px;
+}
+.txt-tetepaez {
+    padding-top: 2%;
+    font-family: 'Give You Glory', cursive;
+    font-size: 50px;
+    font-weight: 400%;
+    color: rgb(88, 88, 88);
+    text-align: center;
+}
+.txt-tetepaez:hover {
+    font-size: 55px;
+    color: yellow;
+}
+.txt-soy {
+    margin-top: 1%;
+    font-size: 15px;
+}
+/*BOX BOTON*/
+.boton-loquehago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    font-size: 9px;  
+}
+.boton-loquehago:hover {
+    background-color: yellow;
+}
+/*BOX IMAGEN*/
+.img-size {
+    margin-top: 8%;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+/*BOX CONOCIMIENTOS*/
+.box-xl-misconocimientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+.box-conocimientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    padding: 1%;
+}
+.titulo-misconocimientos {
+    font-family: 'Give You Glory', cursive;
+    width: 100%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 700;
+}
+.titulo-misconocimientos:hover {
+    font-size: 32px;
+    color: yellow;
+}
+.txt-conocimientos-lorem {
+    width: 95%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+/*BOX CARDS*/
+.box-cards{
+    width: 100%;
+    margin-top: 10%;
+    padding: 2%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.box-icon {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;   
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(255, 255, 255); 
+    border: solid 1px rgb(218, 218, 218);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 #000000;
+}
+.box-icon:hover {
+    box-shadow: 0 0 5px 0 yellow;
+    border: solid 1px yellow;
+}
+.html-color {
+    color: rgb(229 77 38);
+}
+.css-color {
+    color: rgb(61 143 198);
+}
+.sass-color {
+    color: rgb(204 102 153);
+}
+.javascript-color {
+    color: rgb(240 219 79);
+}
+.react-color {
+    color: rgb(97 218 251);
+}
+.git-color {
+    color: rgb(243 79 41);
+}
+.fontsize {
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-bottom: 15%;
+}
+.name-icon {
+    font-size: 15px;
+}
+/*seccion quote*/
+
+
+.box-quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(185, 184, 184);
+}
+.font-size-fas {
+    font-size: 25px;
+    margin-bottom: 2%;   
+}
+.box-txt-quote {
+    width: 98%;
+    color: white;
+    text-align: center;
+}
+.quote-ingles {
+    margin-top: 2%;
+    border-radius: 20px;
+    text-decoration: underline yellow;
+    font-family: 'Give You Glory', cursive;
+    font-size: 20px;
+    font-weight: 400;
     
+}
+.quote-ingles:hover {
+    box-shadow: 0 0 15px 0 yellow;
+    text-decoration: underline yellow;
+}
+.quote {
+    margin-top: 1%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.quote-by {
+    margin-top: 8%;
+    font-size: 16px;
+    font-family: 800;
+}
+
+
+
+
+/*seccion proyectos*/
+
+.box-xl-proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;    
+}
+.box-columna-proyectos {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.titulo-mis-proyectos {
+    text-align: center;
+    padding: 2%;
+    font-family: 'Give You Glory', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);   
+}
+.titulo-mis-proyectos:hover {
+    font-size: 32px;
+    color: yellow;
+}
+.txt-proyectos-lorem {
+    max-width: 90%;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
+/*BOX CARDS PROYECTOS*/
+.box-cards-proyectos {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-top: 5%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    
+}
+.img-proyectos {
+    width: 48%;
+    margin: 1%;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px 0 #e0dfdf;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+.img-proyectos:hover {
+    box-shadow: 0 0 5px 0 yellow;
+    border: solid 1px yellow;
+}
+.img-size {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    width: 70%;  
+}
+.nombre-proyecto {
+    align-items: flex-end;
+    margin: 5%;
+    font-size: 15px;
+}
+
+/*seccionnnnnnnnnn formulario*/
+
+
+
+
+
+
+
+.box-XL-formulario {
+    width: 100%;
+    height: 600%;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.div-box-contactame-box-escribime {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px 0 #dfdede;
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(216, 215, 215) solid;
+    border-radius: 20px;
+}
+.div-box-contactame-box-escribime:hover {
+    box-shadow: 0 0 3px 0 yellow;
+}
+.section-box-contactame-box-escribime {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 2%;
+}
+.title-seccion {
+    font-family: 'Give You Glory', cursive;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 1100px;
+}
+.txt-contactame-lorem {
+    padding-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 800px;
+}
+/*SECCION CONTACTAME ICONS*/
+.box-contactactame-icons {
+    display: flex;
+    justify-content: left;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+}
+.ul-icons-contactame {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+ 
+}
+.li-style-icons-contactame {
+    display: flex;
+    padding: 2%;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.logosize { 
+    padding: 2%;
+    font-size: 25px;
+    color: darkgray;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.logosize:hover {
+    background-color: yellow;
+}
+.icon-id {
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    font-size: 15px;
+    margin-left: 1%;
+}
+/*SECCION FORMULARIO*/
+.box-formulario {
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-nombreyapellido {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+.solo-nombre {
+    background-color: rgb(255, 255, 255);
+    margin-right: 1%;
+}
+.solo-apellido {
+    background-color: rgb(255, 255, 255);
+}
+.email {
+    display: block;
+    padding-top: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.container-mensaje {
+    background-color: rgb(255, 255, 255);
+}
+input {
+    margin-top: 3%;
+    padding-top: 2%;
+    display: block;
+    margin-left: 2%;
+    width: 95%;
+    padding: 2%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.container-input-comentario {
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: rgb(0, 0, 0);
+    padding: 3%;
+}
+.boton-enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0) 2px solid;
+    box-shadow: 0 0 15px 0 #cccccc;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.boton-enviar:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+}
+/*seccion footer*/
+
+
+
+
+
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.blackground {
+    background-color:#000000;
+}
+.nav-Footer{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.nav {
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    height: 30px;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 5px;
+   
+}
+.ul-iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.medidas-Iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 10%;
+    border-radius: 100%;
+    color: #000000;
+    background-color: #ffffff;
+}
+.medidas-Iconos:hover{
+    background-color:yellow;
+    color: #ffff;
+}
+.sizeIcons{
+    font-size: 15px;
+}
+.white-color-ancla {
+    color: white;
+}
+.white-color-ancla:hover{
+    color:yellow;
+}
+.hechoconamor {
+    color: white;
+    font-size: 10px;
+}
+.tete-font {
+    font-size: 10px;
+    font-family: 'Give You Glory', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (min-width: 490px) and (max-width: 800px) {
@@ -15,5 +563,4 @@
     
     .navFooter{
         display: none;
-}
 }
