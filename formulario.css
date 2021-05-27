@@ -2,6 +2,7 @@
     width: 100%;
     height: 600%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     padding: 10%;
     background-color: rgb(241, 239, 239);
@@ -31,7 +32,6 @@
 }
 .txt-contactame-lorem {
     padding-bottom: 10%;
-    background-color: rgb(255, 255, 255);
     font-size: 21px;
     font-weight: 800px;
 }
@@ -83,12 +83,13 @@
     text-align: left;
     background-color: rgb(255, 255, 255);
 }
-.solo-nombre {
+.nombre-apellido {
     background-color: rgb(255, 255, 255);
-    margin-right: 2%;
+    width: 100%;
 }
-.solo-apellido {
-    background-color: rgb(255, 255, 255);
+.label-nombre-apellido {
+    width: 100%;
+    margin-bottom: 5%;
 }
 .email {
     display: block;
@@ -99,20 +100,26 @@
     background-color: rgb(255, 255, 255);
 }
 input {
+    background-color: rgb(241, 239, 239);
+    outline: none;
     margin-top: 3%;
     padding-top: 2%;
     display: block;
-    margin-left: 2%;
-    width: 100%;
+    width: 98%;
     padding: 4%;
     border-radius: 25px;
+    border: none;
     font-size: 20px;
 }
 .container-input-comentario {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 239, 239);
+    outline: none;
+    border: none;
+    
     border-radius: 20px;
     margin-top: 3%;
-    margin-left: 2%;
+    width: 98%;
+
     color: rgb(0, 0, 0);
     padding: 3%;
 }
@@ -125,7 +132,6 @@ input {
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    width: 10%;
     border-radius: 50px;
     border-color: rgb(0, 0, 0) 2px solid;
     box-shadow: 0 0 15px 0 #cccccc;

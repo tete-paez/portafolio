@@ -50,8 +50,9 @@
     width: 390px;
     margin: 1%;
     padding: 20px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
     box-shadow: 0 0 5px 0 #e0dfdf;

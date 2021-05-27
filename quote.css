@@ -18,14 +18,14 @@
     margin-top: 10px;
     padding: 2%;
     border-radius: 50px;
-    text-decoration: underline yellow;
+    text-decoration: underline rgb(0, 0, 0);
     font-family: 'Give You Glory', cursive;
     font-size: 45px;
     font-weight: 400;
     
 }
 .quote-ingles:hover {
-    box-shadow: 0 0 29px 0 yellow;
+    box-shadow: 0 0 29px 0 rgb(255, 255, 255);
     text-decoration: underline yellow;
 }
 .quote {
