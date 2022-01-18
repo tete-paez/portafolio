@@ -36,8 +36,7 @@
     color: black;
 }
 .header-li-color:hover {
-    color: rgb(97, 97, 97);
-    font-size: 23px;
+    color: rgb(110, 109, 109);
 }
 /*BOTON DE CONTACTO*/
 .boton-contacto {
@@ -48,15 +47,12 @@
     color: white;
     border-radius: 50px;
     border-color: rgb(0, 0, 0) 2px solid;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 2%;
     font-size: 20px;
 }
 .boton-contacto:hover {
-    background-color: yellow;
-    font-size: 23px;
+    background-color: rgb(141, 141, 141);
+
 }
 .boton-contacto-color {
     color: white;
